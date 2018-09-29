@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For ZeroTouch
+#######################################
+
+#######################################
+# Instance				(KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin   KEYWORD2
+checkConfig   KEYWORD2
+ConnectWiFi KEYWORD2
+StartSmartConfig    KEYWORD2
+
+#######################################
+# Constants 			(LITERAL1)
+#######################################
+
+LED_RED LITERAL1
+LED_GREEN   LITERAL1
+LED_BUILTIN LITERAL1
+BAUDRATE    LITERAL1
+
