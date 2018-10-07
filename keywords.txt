@@ -1,5 +1,5 @@
 #######################################
-# Syntax Coloring Map For ZeroTouch
+# Syntax Coloring Map For Arduino_ZeroTouch
 #######################################
 
 #######################################
