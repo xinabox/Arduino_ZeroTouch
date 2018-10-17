@@ -1,12 +1,10 @@
-#include <arduino-ZeroTouch.h>
+#include <xZeroTouch.h>
 
 xZeroTouch ZeroTouch;
 
 struct userData {
   char  var1[32] = "$!$SSID!0000000000000000000000!";
   char  var2[32] = "$!$PSK1!0000000000000000000000!";
-  char  var3[32] = "$!$MQTT!--!";
-  char  var4[32] = "$!$PORT!--!";
 };
 
 struct userData user;
@@ -22,7 +20,7 @@ void setup() {
   digitalWrite(LED_GREEN, LOW);
   digitalWrite(LED_BUILTIN, LOW);
 
-  if (ZeroTouch.begin())
+  if (ZeroTouch.begin(user.var1, user.var2))
   {
     #ifdef DEBUG
     Serial.println("WiFi connected!");

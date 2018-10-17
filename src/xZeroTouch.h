@@ -3,8 +3,8 @@
 	ZeroTouch
 */
 
-#ifndef Arduino_ZeroTouch_h
-#define Arduino_ZeroTouch_h
+#ifndef xZeroTouch_h
+#define xZeroTouch_h
 
 #pragma once
 
